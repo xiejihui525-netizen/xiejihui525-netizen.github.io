@@ -60,10 +60,10 @@
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Jessie Xie home">Jessie Xie</a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="#strengths"><svg class="icon"><use href="#icon-spark"></use></svg>优势</a>
-        <a href="#work"><svg class="icon"><use href="#icon-trend"></use></svg>亮点</a>
-        <a href="#experience"><svg class="icon"><use href="#icon-calendar"></use></svg>经历</a>
-        <a href="#contact"><svg class="icon"><use href="#icon-mail"></use></svg>联系</a>
+        <a href="#strengths"><svg class="icon"><use href="#icon-spark"></use></svg>Strengths</a>
+        <a href="#work"><svg class="icon"><use href="#icon-trend"></use></svg>Impact</a>
+        <a href="#experience"><svg class="icon"><use href="#icon-calendar"></use></svg>Experience</a>
+        <a href="#contact"><svg class="icon"><use href="#icon-mail"></use></svg>Contact</a>
       </nav>
     </header>
 
@@ -73,9 +73,11 @@
           <p class="eyebrow">Overseas Marketing Specialist</p>
           <h1>Jessie Xie</h1>
           <p class="name-cn">谢吉慧</p>
-          <p class="hero-lead">
-            深耕柬埔寨市场，连接总部策略、本地渠道与数字化运营，推动海外市场从内容触达、活动转化到平台增长的完整闭环。
-          </p>
+          <div class="hero-lead">
+            <span>柬埔寨市场本地化增长</span>
+            <span>总部策略到区域 GTM 落地</span>
+            <span>平台运营、内容触达与活动转化闭环</span>
+          </div>
           <div class="hero-tags" aria-label="Career focus">
             <span><svg class="icon"><use href="#icon-globe"></use></svg>海外市场推广</span>
             <span><svg class="icon"><use href="#icon-megaphone"></use></svg>海外数字营销</span>
@@ -88,16 +90,20 @@
         </div>
 
         <aside class="portrait-card" aria-label="Jessie Xie profile photo">
-          <div class="portrait-frame">
+          <a class="portrait-frame" href="./assets/profile.jpg" target="_blank" rel="noopener" aria-label="Open Jessie Xie profile photo">
             <img src="./assets/profile.jpg" alt="Jessie Xie简历照片" onerror="this.remove(); document.querySelector('.portrait-placeholder').hidden = false;" />
             <div class="portrait-placeholder" hidden>
               <span class="initials">JX</span>
               <span class="placeholder-label">Profile photo</span>
             </div>
-          </div>
+            <span class="photo-zoom">Click to enlarge</span>
+          </a>
           <div class="portrait-caption">
-            <strong>3 years</strong>
-            <span>Overseas marketing and digital operations experience</span>
+            <div class="metric">
+              <strong>3</strong>
+              <span>years</span>
+            </div>
+            <p>Overseas marketing and digital operations experience</p>
           </div>
         </aside>
       </section>
@@ -105,7 +111,7 @@
       <section class="section" id="strengths">
         <div class="section-heading">
           <p class="eyebrow">Core Strengths</p>
-          <h2>把区域市场工作做成可追踪、可复盘、可复制的增长系统。</h2>
+          <h2>打造可追踪复盘的区域增长系统</h2>
         </div>
         <div class="strength-grid">
           <article>
@@ -135,7 +141,7 @@
       <section class="section work-section" id="work">
         <div class="section-heading">
           <p class="eyebrow">Selected Impact</p>
-          <h2>覆盖平台、产品、内容、活动与渠道生态的海外市场实践。</h2>
+          <h2>平台内容活动联动驱动海外增长</h2>
         </div>
         <div class="impact-list">
           <article>
@@ -183,31 +189,44 @@
         </div>
       </section>
 
-      <section class="section split-section" id="experience">
+      <section class="section experience-section" id="experience">
         <div class="section-heading">
           <p class="eyebrow">Experience</p>
-          <h2>跨语言、跨文化、跨团队的区域市场成长路径。</h2>
+          <h2>跨语言跨文化的区域市场成长路径</h2>
         </div>
         <div class="timeline">
-          <article>
+          <article class="timeline-item">
+            <div class="timeline-logo logo-mark">
+              <img src="./assets/bfsu-logo.png" alt="Beijing Foreign Studies University logo" />
+            </div>
+            <span class="time">2019.09 - 2023.07</span>
+            <h3>北京外国语大学</h3>
+            <p>本科｜柬埔寨语，GPA 3.97/4.00，英语专八优秀</p>
+          </article>
+          <article class="timeline-item overlap-item">
+            <div class="timeline-logo logo-text">
+              <strong>ICC</strong>
+              <span>NDRC</span>
+            </div>
+            <span class="time">2022.04 - 2022.07</span>
+            <h3>国家发展与改革委员会国际合作中心</h3>
+            <p>产能合作处｜研究助理，参与澜湄区域物流体系发展提升路径研究</p>
+          </article>
+          <article class="timeline-item overlap-item">
+            <div class="timeline-logo logo-mark">
+              <img src="./assets/rupp-logo.png" alt="Royal University of Phnom Penh logo" />
+            </div>
+            <span class="time">2022.09 - 2023.03</span>
+            <h3>金边皇家大学</h3>
+            <p>公派交换｜柬埔寨语，GPA 4.00/4.00</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-logo logo-wide">
+              <img src="./assets/hikvision-logo.png" alt="Hikvision logo" />
+            </div>
             <span class="time">2023.07 - 至今</span>
             <h3>杭州海康威视数字技术股份有限公司</h3>
             <p>泛亚太-柬埔寨｜海外市场专员</p>
-          </article>
-          <article>
-            <span class="time">2022.04 - 2022.07</span>
-            <h3>国家发展与改革委员会国际合作中心</h3>
-            <p>产能合作处｜研究助理，参与澜湄区域物流体系发展提升路径研究。</p>
-          </article>
-          <article>
-            <span class="time">2019.09 - 2023.07</span>
-            <h3>北京外国语大学</h3>
-            <p>本科｜柬埔寨语，GPA 3.97/4.00，英语专八优秀。</p>
-          </article>
-          <article>
-            <span class="time">2022.09 - 2023.03</span>
-            <h3>金边皇家大学</h3>
-            <p>公派交换｜柬埔寨语，GPA 4.00/4.00。</p>
           </article>
         </div>
       </section>
@@ -215,32 +234,47 @@
       <section class="section skills-section">
         <div class="section-heading">
           <p class="eyebrow">Skills & Tools</p>
-          <h2>从市场策略到落地执行，从内容生产到数据复盘。</h2>
+          <h2>从市场策略到数据复盘的实战能力</h2>
         </div>
-        <div class="skills">
-          <span>海外市场推广</span>
-          <span>GTM 项目落地</span>
-          <span>HPP 平台运营</span>
-          <span>社媒矩阵建设</span>
-          <span>用户增长</span>
-          <span>活动策划</span>
-          <span>KOC/KOL 合作</span>
-          <span>预算管理</span>
-          <span>数据复盘</span>
-          <span>市场调研</span>
-          <span>Office</span>
-          <span>Adobe Illustrator</span>
-          <span>Canva</span>
-          <span>Photoshop</span>
-          <span>InDesign</span>
-          <span>剪映</span>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3><svg class="icon"><use href="#icon-spark"></use></svg>Skills</h3>
+            <div class="skills">
+              <span>海外市场推广</span>
+              <span>GTM 项目落地</span>
+              <span>区域市场运营</span>
+              <span>HPP 平台运营</span>
+              <span>社媒矩阵建设</span>
+              <span>用户增长</span>
+              <span>活动策划</span>
+              <span>KOC/KOL 合作</span>
+              <span>数据复盘</span>
+              <span>预算管理</span>
+              <span>市场调研</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3><svg class="icon"><use href="#icon-layers"></use></svg>Tools</h3>
+            <div class="tool-grid">
+              <span class="tool-card"><span class="tool-icon codex-icon">Cx</span>Codex</span>
+              <span class="tool-card"><span class="tool-icon word-icon">W</span>Word</span>
+              <span class="tool-card"><span class="tool-icon ppt-icon">P</span>PPT</span>
+              <span class="tool-card"><span class="tool-icon excel-icon">X</span>Excel</span>
+              <span class="tool-card"><span class="tool-icon outlook-icon">O</span>Outlook</span>
+              <span class="tool-card"><span class="tool-icon canva-icon">C</span>Canva</span>
+              <span class="tool-card"><span class="tool-icon capcut-icon">Cc</span>CapCut</span>
+              <span class="tool-card"><span class="tool-icon ai-icon">Ai</span>Illustrator</span>
+              <span class="tool-card"><span class="tool-icon ps-icon">Ps</span>Photoshop</span>
+              <span class="tool-card"><span class="tool-icon id-icon">Id</span>InDesign</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="contact" id="contact">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>期待把区域市场经验带到更广阔的海外增长场景。</h2>
+          <h2>一起拓展更广阔的海外增长场景</h2>
         </div>
         <div class="contact-actions">
           <a class="button primary" href="mailto:1161485027@qq.com"><svg class="icon"><use href="#icon-mail"></use></svg>1161485027@qq.com</a>
@@ -251,7 +285,7 @@
 
     <footer class="footer">
       <span>Jessie Xie</span>
-      <span>Overseas Marketing · Regional Growth · Localization</span>
+      <span>Overseas Marketing · Regional Growth · GTM Campaigns</span>
     </footer>
   </body>
 </html>
