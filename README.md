@@ -11,6 +11,7 @@ This folder contains a static single-page personal homepage for Jessie Xie.
 - `assets/resume-photo-wide.jpeg`: Resume photo asset.
 - `assets/resume-photo-id.jpeg`: One-inch resume photo asset.
 - `assets/professional-photo.jpg`: Professional image photo kept as a backup asset.
+- `pets/lulu-capybara/`: Water capybara Lulu v2 Codex desktop pet, online preview, and download package.
 
 ## Preview
 
